@@ -53,7 +53,7 @@
     "lint:fix": "turbo run lint:fix",
     "lint:report": "turbo run lint:report",
     "lint": "turbo run lint",
-    "postinstall": "husky install && turbo run post-install",
+    "postinstall": "husky install",
     "pre-commit": "lint-staged",
     "predev": "echo 'Checking env files'",
     "prisma": "yarn workspace @calcom/prisma prisma",

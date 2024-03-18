@@ -4,3 +4,11 @@ node_modules
 **/**/public
 packages/prisma/zod
 apps/web/public/embed
+/cal/node_modules
+/cal/**/**/node_modules
+/cal/**/**/.next
+/cal/**/**/public
+/cal/packages/prisma/zod
+/cal/apps/web/public/embed
+
+
