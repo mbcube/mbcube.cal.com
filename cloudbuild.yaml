@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  script: docker build -t northamerica-northeast1-docker.pkg.dev/mbcube-cal/mbcube-cal/mbcubecalcom-web .
+images:
+- 'northamerica-northeast1-docker.pkg.dev/mbcube-cal/mbcube-cal/mbcubecalcom-web'
